@@ -1,0 +1,38 @@
+#captchatable {
+    height: 100%;
+    position: fixed;
+    background-color: #262D42;
+    width: 100%;
+    padding: 15px;
+    top: 0;
+    left: 496px;
+    float: left;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing:0 15px;
+    width: 59%;
+}
+
+td {
+    padding: 15px;
+}
+
+tr {
+    font-weight: bold;
+    font-size: 12px;
+    border: 2px solid #616D96;
+    color: white;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.cmdStart {
+    cursor: pointer;
+    height: 13px;
+}
+
+.cmdDelete {
+    cursor: pointer;
+    height: 13px;
+}

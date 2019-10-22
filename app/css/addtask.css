@@ -1,0 +1,54 @@
+#addtask {
+    height: 100%;
+    position: fixed;
+    background-color: #1E2333;
+    width: 17%;
+    padding: 15px;
+    top: 0;
+    left: 248px;
+    float: left;
+}
+
+#taskText {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.info {
+    font-family: 'Be Vietnam', sans-serif;
+    background-color: #282E42;
+    width: 90%;
+    border: 0;
+    outline: 0;
+    color: #C3C6D0;
+    padding: 8px;
+    height: 5%;
+}
+
+#addtaskbtn {
+    border: 3px solid #00E0F0;
+    border-radius: 3px;
+    padding: 15px;
+    /* height: 5%; */
+    width: 98%;
+    text-align: center;
+    font-family: 'Be Vietnam', sans-serif;
+    outline: 0;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#addtaskbtn:hover {
+    color:#000000;
+    background-color: white;
+}
+
+@media all and (max-width:30em){
+    #addtaskbtn {
+        display:block;
+        margin:0.4em auto;
+    }
+}

@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+
+#textandimage {
+    text-align: center;
+    color: white;
+    font-family: 'Manjari', sans-serif;
+    font-size: 20px;
+}
+
+#authentication {
+    cursor: pointer;
+    text-align: center;
+}
+
+#authbtn {
+    font-family: 'Manjari', sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: darkslategray;
+    border: 1px solid skyblue;
+}
+
